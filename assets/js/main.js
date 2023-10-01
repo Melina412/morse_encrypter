@@ -54,7 +54,7 @@ function encrypt() {
     if (data) {
       output_code += data.morseCode;
     } else {
-      output_code += "letter not found";
+      output_code += "[letter not found]";
     }
   }
 

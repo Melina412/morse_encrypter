@@ -4,17 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Morse Encrypter</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <section>
-      <form onsubmit="return false">
-        <input type="text" name="" id="input" />
-        <input type="submit" id="submit" value="Encrypt" onclick="encrypt()" />
-      </form>
-    </section>
-    <section>
-      <p id="output"></p>
-    </section>
+    <main>
+      <section>
+        <form onsubmit="return false">
+          <input
+            class="text-field"
+            type="text"
+            name=""
+            id="input"
+            placeholder="enter your text here..."
+          />
+          <input
+            class="button"
+            type="submit"
+            id="submit"
+            value="Encrypt"
+            onclick="encrypt()"
+          />
+        </form>
+      </section>
+      <section>
+        <p class="text-field" id="output"></p>
+      </section>
+    </main>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
